@@ -1,0 +1,42 @@
+
+[core]
+  debug = true
+
+[log]
+  level = "debug"
+
+[database]
+  args = "charset=utf8mb4"
+  buf_size = 10
+  dbname = "gst"
+  host = "127.0.0.1"
+  max_idle_conns = 20
+  max_open_conns = 15
+  password = ""
+  port = 3306
+  show_sql = true
+  username = "root"
+
+[dev]
+  verify_sms = false
+
+[lexin]
+  password = "baodekeji627"
+  sign = "宝德科技"
+  user = "18838129664"
+
+[redis]
+  db = 0
+  addr = "127.0.0.1:6379"
+  password = ""
+
+[update]
+  android = "https://fir.im/tand"
+  ios = "https://fir.im/tios"
+
+[webserver]
+  addr = "0.0.0.0:9999"
+  admin_host = "http://gst.test/uploads/"
+  enable_ssl = false
+  host = "http://gst.test"
+  static_dir = "static"
